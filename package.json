@@ -18,9 +18,9 @@
     "url": "https://github.com/noodlecrate/poseidon-entities/issues"
   },
   "homepage": "https://github.com/noodlecrate/poseidon-entities#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "dts-generator": "^1.7.0",
     "typescript": "^1.8.10"
   }
 }
