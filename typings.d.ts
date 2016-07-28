@@ -1,4 +1,4 @@
-declare module 'poseidon-entities' {
+export namespace DTOs {
     export class ReviewDto {
         public id: number;
         public author: UserDto;
@@ -24,7 +24,9 @@ declare module 'poseidon-entities' {
         public id: number;
         public name: string;
     }
+}
 
+export namespace Models {
     export interface IModel {
 
     }
@@ -55,5 +57,4 @@ declare module 'poseidon-entities' {
         public id: number;
         public name: string;
     }
-
 }
