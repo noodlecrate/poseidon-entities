@@ -21,7 +21,18 @@
         "!node_modules/**"
     ],
     "files": [
-        "index.ts"
+        "dtos/_namespace.ts",
+        "dtos/brand-dto.ts",
+        "dtos/noodle-dto.ts",
+        "dtos/review-dto.ts",
+        "dtos/user-dto.ts",
+        "index.ts",
+        "models/_interfaces/model.i.ts",
+        "models/_namespace.ts",
+        "models/brand-model.ts",
+        "models/noodle-model.ts",
+        "models/review-model.ts",
+        "models/user-model.ts"
     ],
     "atom": {
         "rewriteTsconfig": true
