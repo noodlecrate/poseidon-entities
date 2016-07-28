@@ -20,7 +20,6 @@
   "homepage": "https://github.com/noodlecrate/poseidon-entities#readme",
   "dependencies": {},
   "devDependencies": {
-    "dts-generator": "^1.7.0",
     "typescript": "^1.8.10"
   }
 }
