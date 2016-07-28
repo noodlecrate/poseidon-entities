@@ -1,0 +1,26 @@
+{
+  "name": "noodlecrate-poseidon-entities",
+  "version": "0.0.1-alpha.0",
+  "description": "Entities in Noodlecrate's Poseidon platform.",
+  "main": "./build/index.js",
+  "typings": "./typings.d.ts",
+  "scripts": {
+    "build": "tsc -p src",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noodlecrate/poseidon-entities.git"
+  },
+  "author": "Noodlecrate (https://github.com/noodlecrate)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noodlecrate/poseidon-entities/issues"
+  },
+  "homepage": "https://github.com/noodlecrate/poseidon-entities#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript": "^1.8.10"
+  }
+}
