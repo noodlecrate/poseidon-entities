@@ -1,4 +1,4 @@
-declare module 'poseidon-entities' {
+declare module 'noodlecrate-poseidon-entities' {
     export class ReviewDto {
         public id: number;
         public author: UserDto;
