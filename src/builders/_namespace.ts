@@ -1,5 +1,5 @@
-import * as ModelsNamespace from './models/_namespace';
+import * as ModelBuildersNamespace from './models/_namespace';
 
 export {
-    ModelsNamespace as Models
+    ModelBuildersNamespace as ModelBuilders
 };
