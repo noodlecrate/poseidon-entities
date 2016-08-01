@@ -1,6 +1,6 @@
 {
   "name": "noodlecrate-poseidon-entities",
-  "version": "0.0.1-alpha.3",
+  "version": "0.0.1-alpha.4",
   "description": "Entities in Noodlecrate's Poseidon platform.",
   "main": "./build/index.js",
   "typings": "./typings.d.ts",
