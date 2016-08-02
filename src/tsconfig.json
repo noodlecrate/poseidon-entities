@@ -21,9 +21,16 @@
         "!node_modules/**"
     ],
     "files": [
+        "builders/_namespace.ts",
+        "builders/models/_namespace.ts",
+        "builders/models/brand-model.builder.ts",
+        "builders/models/noodle-model.builder.ts",
+        "builders/models/review-model.builder.ts",
+        "builders/models/user-model.builder.ts",
         "dtos/_namespace.ts",
         "dtos/brand-dto.ts",
         "dtos/noodle-dto.ts",
+        "dtos/review-create-dto.ts",
         "dtos/review-dto.ts",
         "dtos/user-dto.ts",
         "index.ts",

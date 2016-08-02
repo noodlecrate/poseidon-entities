@@ -8,6 +8,13 @@ export namespace DTOs {
         public imageUrl: string;
     }
 
+    export class ReviewCreateDto {
+        public authorId: number;
+        public title: string;
+        public body: string;
+        public imageUrl: string;
+    }
+
     export class UserDto {
         public id: number;
         public username: string;
