@@ -47,6 +47,8 @@ export namespace Models {
         public title: string;
         public body: string;
         public imageUrl: string;
+
+        public constructor (author: UserModel, dto: DTOs.ReviewCreateDto);
     }
 
     export class UserModel implements IModel {
@@ -56,6 +58,8 @@ export namespace Models {
         public firstName: string;
         public lastName: string;
         public profileImage: string;
+
+        public createReview(dto: DTOs.ReviewCreateDto): ReviewModel;
     }
 
     export class NoodleModel implements IModel {

@@ -1,4 +1,5 @@
-import { IModel } from './_namespace';
+import { IModel, ReviewModel } from './_namespace';
+import { ReviewCreateDto } from '../dtos/_namespace';
 
 export class UserModel implements IModel {
 
@@ -8,5 +9,9 @@ export class UserModel implements IModel {
     public firstName: string;
     public lastName: string;
     public profileImage: string;
+
+    public createReview(dto: ReviewCreateDto): ReviewModel {
+        return new ReviewModel(this, dto);
+    }
 
 }
