@@ -43,13 +43,13 @@ export class ReviewModelBuilder {
     }
 
     public build(): Models.ReviewModel {
-        let model = new Models.ReviewModel();
-
-        model.id = this._id;
-        model.author = this._author;
-        model.title = this._title;
-        model.body = this._body;
-        model.imageUrl = this._imageUrl;
+        let model: Models.ReviewModel = {
+            id: this._id,
+            author: this._author,
+            title: this._title,
+            body: this._body,
+            imageUrl: this._imageUrl
+        };
 
         return model;
     }
