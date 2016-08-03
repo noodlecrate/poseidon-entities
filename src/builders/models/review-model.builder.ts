@@ -1,4 +1,4 @@
-import { Models } from '../../index';
+import { Models, DTOs } from '../../index';
 import { UserModelBuilder } from './_namespace';
 
 export class ReviewModelBuilder {
@@ -43,14 +43,15 @@ export class ReviewModelBuilder {
     }
 
     public build(): Models.ReviewModel {
-        let model: Models.ReviewModel = {
-            id: this._id,
-            author: this._author,
+        let dto: DTOs.ReviewCreateDto = {
+            authorId: this._author.id,
             title: this._title,
             body: this._body,
             imageUrl: this._imageUrl
         };
 
+        let model = this._author.createReview(dto);
+        model.id = this._id;
         return model;
     }
 
