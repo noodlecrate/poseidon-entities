@@ -17,4 +17,14 @@ export class ReviewModel implements IModel {
         this.imageUrl = dto.imageUrl;
     }
 
+    public update (dto: ReviewCreateDto): void {
+        if (dto.authorId !== this.author.id) {
+            throw Error('Cannot change review author.');
+        }
+
+        this.title = dto.title;
+        this.body = dto.body;
+        this.imageUrl = dto.imageUrl;
+    }
+
 }

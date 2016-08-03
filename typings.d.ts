@@ -49,6 +49,7 @@ export namespace Models {
         public imageUrl: string;
 
         public constructor (author: UserModel, dto: DTOs.ReviewCreateDto);
+        public update (dto: DTOs.ReviewCreateDto): void
     }
 
     export class UserModel implements IModel {
